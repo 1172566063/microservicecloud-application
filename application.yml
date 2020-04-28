@@ -1,4 +1,9 @@
 spring:
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
     profiles:
         active: dev
 
